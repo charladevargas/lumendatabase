@@ -82,7 +82,8 @@ class Notice < ActiveRecord::Base
     'PrivateInformation'    => 'Right of Publicity',
     'DataProtection'        => 'EU - Right to Be Forgotten',
     'GovernmentRequest'     => 'Government Requests',
-    'Other'                 => OTHER_TOPIC
+    'Other'                 => OTHER_TOPIC,
+    'Placeholder'           => OTHER_TOPIC
   }.freeze
 
   TYPES = TYPES_TO_TOPICS.keys
