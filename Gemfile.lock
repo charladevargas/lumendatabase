@@ -291,7 +291,7 @@ GEM
       json
     recipient_interceptor (0.2.0)
       mail
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     ref (2.0.0)
     regexp_parser (1.5.1)
     remotipart (1.4.3)
@@ -450,7 +450,7 @@ DEPENDENCIES
   rails_admin_tag_list
   recaptcha
   recipient_interceptor
-  redcarpet
+  redcarpet (>= 3.5.1)
   rspec-collection_matchers (~> 1.1, >= 1.1.2)
   rspec-rails
   ruby-prof

@@ -41,7 +41,7 @@ gem 'rails_admin_tag_list'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
 gem 'recipient_interceptor', require: false
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem 'select2-rails', '~> 4.0', '>= 4.0.3'
 gem 'simple_form'
 gem 'skylight'
