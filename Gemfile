@@ -35,9 +35,9 @@ gem 'rack', '>= 1.6.11'
 # rack-attack 5 has breaking changes that we should deal with later.
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
-gem 'rails', '~> 4.2.11'
-gem 'rails_admin'
-gem 'rails_admin_tag_list'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+gem 'rails_admin', '>= 2.0.0'
+gem 'rails_admin_tag_list', '>= 0.2.0'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
 gem 'recipient_interceptor', require: false
