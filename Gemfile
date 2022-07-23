@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'active_model_serializers', '~> 0.8.3'
+gem 'active_model_serializers', '~> 0.8.4'
 gem 'activerecord-import'
 gem 'acts-as-taggable-on'
 gem 'addressable'
@@ -29,7 +29,7 @@ gem 'lograge'
 gem 'loofah', '>= 2.2.3'
 gem 'mime-types'
 gem 'oink'
-gem 'paperclip', '~> 5'
+gem 'paperclip', '~> 5', '>= 5.3.0'
 gem 'pg', '0.20.0'
 gem 'rack', '>= 1.6.11'
 # rack-attack 5 has breaking changes that we should deal with later.
@@ -49,7 +49,7 @@ gem 'stackprof'
 gem 'turnout'
 
 # These need to go last or tests fail.
-gem 'elasticsearch-model', '~> 5.0'
+gem 'elasticsearch-model', '~> 5.1', '>= 5.1.0'
 gem 'elasticsearch-rails', '~> 5.0'
 
 group :development do
@@ -86,7 +86,7 @@ group :test do
   gem 'fakeweb'
   gem 'poltergeist'
   gem 'rack-test', require: 'rack/test'
-  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.3'
   gem 'simplecov', require: false
   gem 'spork-rails', git: 'https://github.com/sporkrb/spork-rails'
   gem 'timecop'
