@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'active_model_serializers', '~> 0.8.3'
 gem 'activerecord-import'
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 4.0.0'
 gem 'addressable'
 gem 'ancestry'
 gem 'bootstrap-datepicker-rails'
@@ -35,7 +35,7 @@ gem 'rack', '>= 1.6.11'
 # rack-attack 5 has breaking changes that we should deal with later.
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
-gem 'rails', '~> 4.2.11'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'rails_admin'
 gem 'rails_admin_tag_list'
 # Monkeypatched temporarily for debugging purposes
