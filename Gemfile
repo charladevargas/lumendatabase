@@ -26,7 +26,7 @@ gem 'jquery-ui-rails'
 # slow postgres table counts on large tables.
 gem 'kaminari', '0.14.1'
 gem 'lograge'
-gem 'loofah', '>= 2.2.3'
+gem 'loofah', '>= 2.19.1'
 gem 'mime-types'
 gem 'oink'
 gem 'paperclip', '~> 5'
