@@ -36,7 +36,7 @@ gem 'rack', '>= 1.6.11'
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
 gem 'rails', '~> 4.2.11'
-gem 'rails_admin'
+gem 'rails_admin', '>= 2.0.0'
 gem 'rails_admin_tag_list'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
@@ -74,7 +74,7 @@ group :development, :test, :assets do
   gem 'bourbon'
   gem 'coffee-rails'
   gem 'neat'
-  gem 'sass-rails'
+  gem 'sass-rails', '>= 6.0.0'
   gem 'therubyracer'
   gem 'uglifier'
 end
