@@ -5,7 +5,7 @@ gem 'activerecord-import'
 gem 'acts-as-taggable-on'
 gem 'addressable'
 gem 'ancestry'
-gem 'bootstrap-datepicker-rails'
+gem 'bootstrap-datepicker-rails', '>= 1.9.0.1'
 gem 'cancancan'
 # country_select has breaking changes in 2.x:
 # https://github.com/stefanpenner/country_select/blob/master/UPGRADING.md
@@ -14,18 +14,18 @@ gem 'cancancan'
 gem 'country_select', '~> 1.2.0'
 gem 'coveralls', require: false
 gem 'date_validator'
-gem 'devise'
-gem 'dotenv-rails'
+gem 'devise', '>= 4.7.0'
+gem 'dotenv-rails', '>= 2.7.6'
 gem 'flutie'
 gem 'high_voltage'
 gem 'html2md', require: false
 gem 'jquery-placeholder-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'jquery-ui-rails'
 # kaminari is locked because we've monkeypatched it to work around
 # slow postgres table counts on large tables.
-gem 'kaminari', '0.14.1'
-gem 'lograge'
+gem 'kaminari', '0.15.0'
+gem 'lograge', '>= 0.11.2'
 gem 'loofah', '>= 2.2.3'
 gem 'mime-types'
 gem 'oink'
@@ -35,15 +35,15 @@ gem 'rack', '>= 1.6.11'
 # rack-attack 5 has breaking changes that we should deal with later.
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
-gem 'rails', '~> 4.2.11'
-gem 'rails_admin'
-gem 'rails_admin_tag_list'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
+gem 'rails_admin', '>= 2.0.0'
+gem 'rails_admin_tag_list', '>= 0.2.1'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
 gem 'recipient_interceptor', require: false
 gem 'redcarpet'
 gem 'select2-rails', '~> 4.0', '>= 4.0.3'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'skylight'
 gem 'stackprof'
 gem 'turnout'
@@ -59,22 +59,22 @@ group :development do
 end
 
 group :development, :test do
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 5.1.0"
   gem 'phantomjs'
   gem 'pry', '~> 0.10.4'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-collection_matchers', '~> 1.1', '>= 1.1.2'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.6.1'
   gem 'ruby-prof'
   gem 'sham_rack'
 end
 
 group :development, :test, :assets do
   gem 'bourbon'
-  gem 'coffee-rails'
+  gem 'coffee-rails', '>= 5.0.0'
   gem 'neat'
-  gem 'sass-rails'
+  gem 'sass-rails', '>= 5.0.8'
   gem 'therubyracer'
   gem 'uglifier'
 end
