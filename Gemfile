@@ -37,7 +37,7 @@ gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
 gem 'rails', '~> 4.2.11'
 gem 'rails_admin'
-gem 'rails_admin_tag_list'
+gem 'rails_admin_tag_list', '>= 0.2.1'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
 gem 'recipient_interceptor', require: false
