@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'active_model_serializers', '~> 0.8.3'
 gem 'activerecord-import'
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 12.0.0'
 gem 'addressable'
 gem 'ancestry'
 gem 'bootstrap-datepicker-rails'
