@@ -65,7 +65,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-collection_matchers', '~> 1.1', '>= 1.1.2'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'ruby-prof'
   gem 'sham_rack'
 end
