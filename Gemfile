@@ -24,19 +24,19 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 # kaminari is locked because we've monkeypatched it to work around
 # slow postgres table counts on large tables.
-gem 'kaminari', '0.14.1'
+gem 'kaminari', '1.0.0'
 gem 'lograge'
 gem 'loofah', '>= 2.2.3'
 gem 'mime-types'
 gem 'oink'
 gem 'paperclip', '~> 5'
 gem 'pg', '0.20.0'
-gem 'rack', '>= 1.6.11'
+gem 'rack', '>= 2.2.14'
 # rack-attack 5 has breaking changes that we should deal with later.
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
-gem 'rails', '~> 4.2.11'
-gem 'rails_admin'
+gem 'rails', '~> 7.0.0'
+gem 'rails_admin', '>= 3.0.0'
 gem 'rails_admin_tag_list'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
@@ -74,7 +74,7 @@ group :development, :test, :assets do
   gem 'bourbon'
   gem 'coffee-rails'
   gem 'neat'
-  gem 'sass-rails'
+  gem 'sass-rails', '>= 6.0.0'
   gem 'therubyracer'
   gem 'uglifier'
 end
