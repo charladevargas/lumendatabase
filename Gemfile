@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'active_model_serializers', '~> 0.8.3'
-gem 'activerecord-import'
-gem 'acts-as-taggable-on'
+gem 'activerecord-import', '>= 0.21.0'
+gem 'acts-as-taggable-on', '>= 4.0.0'
 gem 'addressable'
-gem 'ancestry'
+gem 'ancestry', '>= 2.1.0'
 gem 'bootstrap-datepicker-rails'
 gem 'cancancan'
 # country_select has breaking changes in 2.x:
@@ -35,9 +35,9 @@ gem 'rack', '>= 1.6.11'
 # rack-attack 5 has breaking changes that we should deal with later.
 gem 'rack-attack', '~> 4.0'
 gem 'rack-mini-profiler'
-gem 'rails', '~> 4.2.11'
-gem 'rails_admin'
-gem 'rails_admin_tag_list'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
+gem 'rails_admin', '>= 3.0.0'
+gem 'rails_admin_tag_list', '>= 0.2.1'
 # Monkeypatched temporarily for debugging purposes
 gem 'recaptcha'
 gem 'recipient_interceptor', require: false
