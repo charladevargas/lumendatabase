@@ -49,7 +49,7 @@ gem 'stackprof'
 gem 'turnout'
 
 # These need to go last or tests fail.
-gem 'elasticsearch-model', '~> 5.0'
+gem 'elasticsearch-model', '~> 6.0', '>= 6.0.0'
 gem 'elasticsearch-rails', '~> 5.0'
 
 group :development do
@@ -82,7 +82,7 @@ end
 group :test do
   gem 'curb'
   gem 'database_cleaner'
-  gem 'elasticsearch-extensions'
+  gem 'elasticsearch-extensions', '>= 0.0.32'
   gem 'fakeweb'
   gem 'poltergeist'
   gem 'rack-test', require: 'rack/test'
